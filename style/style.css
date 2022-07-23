@@ -1,0 +1,20 @@
+.content {
+    margin: auto;
+    width: 500px;
+    padding-top: 20px;
+}
+.images {
+    position: absolute;
+    z-index: -1;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    background-color: rgba(240, 248, 255, 0.288);
+    font-weight: bold;
+}
+button:hover {
+    background-color: rgb(240, 248, 255);
+}
